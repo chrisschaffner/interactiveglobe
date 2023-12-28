@@ -5,8 +5,8 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { OutlinePass } from "three/examples/jsm/postprocessing/OutlinePass.js";
-import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
-import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
+import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass.js";
 
 
 const scene = new THREE.Scene();
