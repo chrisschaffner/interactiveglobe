@@ -1,12 +1,13 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js';
-import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@latest/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'node_modules/three/build/three.js';
+import { MeshPhongMaterial } from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
-import { EffectComposer } from "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/postprocessing/EffectComposer";
-import { OutlinePass } from "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/postprocessing/OutlinePass";
-import { RenderPass } from "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/postprocessing/RenderPass";
-import { GammaCorrectionShader } from 'https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/shaders/GammaCorrectionShader.js'
-import { ShaderPass } from 'https://cdn.jsdelivr.net/npm/three@latest/addons/postprocessing/ShaderPass.js';
+import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer";
+import { OutlinePass } from "three/examples/jsm/postprocessing/OutlinePass";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
+import { GammaCorrectionShader } from 'three/examples/jsm/shaders/GammaCorrectionShader.js'
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
 
 const scene = new THREE.Scene();
 
