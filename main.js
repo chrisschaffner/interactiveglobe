@@ -1,13 +1,13 @@
 import * as THREE from 'three';
 import { MeshPhongMaterial } from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import { GLTFLoader } from 'three/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/controls/OrbitControls';
 
-import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer";
-import { OutlinePass } from "three/examples/jsm/postprocessing/OutlinePass";
-import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
-import { GammaCorrectionShader } from 'three/examples/jsm/shaders/GammaCorrectionShader.js'
-import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { EffectComposer } from "three/postprocessing/EffectComposer";
+import { OutlinePass } from "three/postprocessing/OutlinePass";
+import { RenderPass } from "three/postprocessing/RenderPass";
+import { GammaCorrectionShader } from 'three/shaders/GammaCorrectionShader.js';
+import { ShaderPass } from 'three/postprocessing/ShaderPass.js';
 
 const scene = new THREE.Scene();
 
