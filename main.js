@@ -1,5 +1,4 @@
-import * as THREE from '/three';
-import { MeshPhongMaterial } from 'three';
+import * as THREE from 'node_modules/three/build/three.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
