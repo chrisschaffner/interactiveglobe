@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-decoration: none ;
+    background-image: url("sky.jpg");
+    background-size: cover;
+}
+
+li, a, button{
+    color:rgb(125, 125, 125);
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.links {
+    position: relative;
+    margin: 0 px 40px;
+}
+
+
+li a {
+    padding: 10px;
+}
+
+.about {
+    background-color: rgb(56, 178, 253);
+    border: none;
+    border-radius: 40px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-right: 10px;
+   
+}
+
+.about:hover {
+    background-color:rgba(37, 150, 112, 0.523);
+    
+}
+
+.links li a:hover {
+    color:rgb(37, 150, 113);
+    transition: all .5s ease 0s;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    place-items: center stretch;
+    align-items: center;
+    padding: 20;
+    margin: 20;
+    background: rgb(69,69,69);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(53, 53, 53) 100%);
+
+}
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 30%;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 20px;
+
+}
+
+#container3D {
+    display: block;
+    
+    height: 800px;
+    width: auto;
+
+}
+
+
+#countryNameDisplay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border-color: rgb(51, 51, 51);
+    border-style: solid;
+    border-left: thick double #ffffff;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    color:white;
+    text-shadow: 3px 3px 3px black;
+    /* background: rgba(128, 128, 128, 0.472) */
+    background: linear-gradient(90deg, rgba(158, 158, 158, 0.547) 0%, rgba(53, 53, 53, 0) 100%);
+
+    
+}
