@@ -55,7 +55,7 @@ controls.zoomSpeed = .2;
 controls.minDistance = 1.3;
 controls.maxDistance = 5;
 
-const background = new THREE.TextureLoader().load('background.jpeg');
+const background = new THREE.TextureLoader().load('background.jpg');
 background.repeat.set(0.5, 1);
 scene.background = background;
 
