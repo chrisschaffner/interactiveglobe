@@ -75,7 +75,7 @@ const loader = new GLTFLoader();
 const sceneMeshes = [];
 
 loader.load(
-    'globe6.glb',
+    'globe.glb',
     function (glb) {
         let earth = glb.scene;
         scene.add(earth);
