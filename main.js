@@ -45,8 +45,8 @@ composer.addPass(gammaCorrectionPass);
 const container = document.getElementById( 'container3D' );
 renderer.setSize(containerWidth, containerHeight);
 container.appendChild(renderer.domElement);
-renderer.shadowMap.enabled = true; // Enable shadows
-renderer.setClearColor( 0xffffff );
+renderer.shadowMap.enabled = true;
+renderer.setClearColor(0x000000, 0); 
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
@@ -54,10 +54,6 @@ controls.enablePan = false;
 controls.zoomSpeed = .2;
 controls.minDistance = 1.3;
 controls.maxDistance = 5;
-
-const background = new THREE.TextureLoader().load('background.jpg');
-background.repeat.set(0.5, 1);
-scene.background = background;
 
 const amblight = new THREE.AmbientLight(0x404040); // Soft white light
 amblight.intensity = 50;
