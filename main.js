@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { MeshPhongMaterial } from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
